@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="I9D-9a-mER">
+    <device id="retina6_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--HomeViewController-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController title="Home" modalPresentationStyle="fullScreen" id="BYZ-38-t0r" userLabel="HomeViewController" customClass="HomeViewController" customModule="ChallengeCamaragibe" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="2800"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4Jj-oX-kRP">
+                                <rect key="frame" x="0.0" y="44" width="414" height="2756"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="seA-RV-fcO" userLabel="Content View">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="2756"/>
+                                        <subviews>
+                                            <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Buscar atividade" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="yui-2Y-hv2">
+                                                <rect key="frame" x="20" y="90" width="374" height="36"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Para se sujar" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K2v-sE-8l1">
+                                                <rect key="frame" x="20" y="160" width="131" height="27"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gvd-Xl-Nal">
+                                                <rect key="frame" x="20" y="207" width="374" height="144"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="Banho no cachorro" title="">
+                                                    <backgroundConfiguration key="background"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="chooseButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fdl-Ci-daM"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="slP-35-OGd">
+                                                <rect key="frame" x="20" y="353" width="380" height="144"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="Chiclete de bruxa" title=""/>
+                                                <connections>
+                                                    <action selector="chooseButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ldf-pH-BOY"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vrZ-6R-v8S">
+                                                <rect key="frame" x="20" y="499" width="374" height="144"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="Carimbo no corpo" title=""/>
+                                                <connections>
+                                                    <action selector="chooseButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="OXr-E1-68k"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KYp-6X-srA">
+                                                <rect key="frame" x="20" y="645" width="374" height="152"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="Fazer biscoitos" title=""/>
+                                                <connections>
+                                                    <action selector="chooseButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Vn7-hj-2Se"/>
+                                                </connections>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Para não esquecer jamais" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1U1-mE-F5I">
+                                                <rect key="frame" x="20" y="801" width="261" height="27"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gtm-ng-lws">
+                                                <rect key="frame" x="20" y="838" width="374" height="144"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="Andar de bicicleta" title=""/>
+                                                <connections>
+                                                    <action selector="chooseButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="r7L-9R-vnQ"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Mq-Lh-ToZ">
+                                                <rect key="frame" x="20" y="984" width="374" height="144"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="Nascer do sol" title=""/>
+                                                <connections>
+                                                    <action selector="chooseButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dPc-wO-SVK"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LRj-au-0Kh">
+                                                <rect key="frame" x="20" y="1130" width="374" height="144"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="Caca ao tesouro" title=""/>
+                                                <connections>
+                                                    <action selector="chooseButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="927-rO-zvs"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F6O-W2-Acp">
+                                                <rect key="frame" x="20" y="1276" width="374" height="144"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="Pular ondas" title=""/>
+                                                <connections>
+                                                    <action selector="chooseButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KXL-xN-4L9"/>
+                                                </connections>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Para dias de chuva" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v7c-oR-fzX">
+                                                <rect key="frame" x="20" y="1422" width="191" height="27"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="evD-cF-Adw">
+                                                <rect key="frame" x="20" y="1459" width="374" height="152"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="Escrever uma história" title=""/>
+                                                <connections>
+                                                    <action selector="chooseButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kCf-YB-WWb"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uVd-oV-ken">
+                                                <rect key="frame" x="20" y="1605" width="374" height="152"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="Encenar uma peça" title=""/>
+                                                <connections>
+                                                    <action selector="chooseButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rEN-08-U6e"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eIO-jI-A7e">
+                                                <rect key="frame" x="20" y="1751" width="374" height="144"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="Recorte de revistas" title=""/>
+                                                <connections>
+                                                    <action selector="chooseButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wmD-3c-LNt"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C82-Uf-wIM">
+                                                <rect key="frame" x="20" y="1897" width="374" height="144"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="Brincar de casinha" title=""/>
+                                                <connections>
+                                                    <action selector="chooseButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qff-1O-Gtt"/>
+                                                </connections>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Para incentivar conquistas" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6eF-hy-0EP">
+                                                <rect key="frame" x="20" y="2047" width="271" height="27"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rva-R0-j8r">
+                                                <rect key="frame" x="20" y="2084" width="374" height="144"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="Criar instrumentos" title="">
+                                                    <backgroundConfiguration key="background"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="chooseButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LOW-S5-4Ff"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Otg-FB-AYb">
+                                                <rect key="frame" x="20" y="2230" width="374" height="144"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="Apostar corrida" title=""/>
+                                                <connections>
+                                                    <action selector="chooseButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zpg-YY-cCN"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="De7-N6-zcq">
+                                                <rect key="frame" x="20" y="2376" width="374" height="144"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="Pular corda" title=""/>
+                                                <connections>
+                                                    <action selector="chooseButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0oJ-dh-Hhh"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EXr-zh-awg">
+                                                <rect key="frame" x="20" y="2522" width="374" height="144"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="Debaixo dagua" title=""/>
+                                                <connections>
+                                                    <action selector="chooseButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KeN-gT-eS4"/>
+                                                </connections>
+                                            </button>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="NameBrincadopedia" translatesAutoresizingMaskIntoConstraints="NO" id="xzG-3l-fo6">
+                                                <rect key="frame" x="87" y="40" width="240" height="51"/>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.92156862750000001" green="0.96078431369999995" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstItem="evD-cF-Adw" firstAttribute="width" secondItem="F6O-W2-Acp" secondAttribute="width" id="1dq-JW-Hwq"/>
+                                            <constraint firstItem="yui-2Y-hv2" firstAttribute="centerX" secondItem="seA-RV-fcO" secondAttribute="centerX" id="1py-Q9-oEH"/>
+                                            <constraint firstItem="evD-cF-Adw" firstAttribute="top" secondItem="v7c-oR-fzX" secondAttribute="bottom" constant="10" id="48h-ZT-fJd"/>
+                                            <constraint firstItem="slP-35-OGd" firstAttribute="top" secondItem="Gvd-Xl-Nal" secondAttribute="bottom" constant="2" id="49r-Rk-DaE"/>
+                                            <constraint firstItem="LRj-au-0Kh" firstAttribute="leading" secondItem="seA-RV-fcO" secondAttribute="leading" constant="20" symbolic="YES" id="4S8-bd-MZb"/>
+                                            <constraint firstItem="9Mq-Lh-ToZ" firstAttribute="leading" secondItem="seA-RV-fcO" secondAttribute="leading" constant="20" symbolic="YES" id="9lC-r7-wuY"/>
+                                            <constraint firstItem="Rva-R0-j8r" firstAttribute="width" secondItem="C82-Uf-wIM" secondAttribute="width" id="AMQ-VE-TPt"/>
+                                            <constraint firstItem="Gvd-Xl-Nal" firstAttribute="top" secondItem="K2v-sE-8l1" secondAttribute="bottom" constant="20" id="AqG-5b-Of8"/>
+                                            <constraint firstItem="vrZ-6R-v8S" firstAttribute="leading" secondItem="seA-RV-fcO" secondAttribute="leading" constant="20" symbolic="YES" id="Atm-Wn-uij"/>
+                                            <constraint firstItem="yui-2Y-hv2" firstAttribute="top" secondItem="xzG-3l-fo6" secondAttribute="bottom" constant="-1" id="C6n-7q-NDS"/>
+                                            <constraint firstItem="uVd-oV-ken" firstAttribute="leading" secondItem="seA-RV-fcO" secondAttribute="leading" constant="20" symbolic="YES" id="D5q-q3-Vf9"/>
+                                            <constraint firstItem="K2v-sE-8l1" firstAttribute="leading" secondItem="seA-RV-fcO" secondAttribute="leading" constant="20" symbolic="YES" id="DHG-iz-qJL"/>
+                                            <constraint firstItem="LRj-au-0Kh" firstAttribute="width" secondItem="KYp-6X-srA" secondAttribute="width" id="DSf-l1-VTT"/>
+                                            <constraint firstItem="eIO-jI-A7e" firstAttribute="leading" secondItem="seA-RV-fcO" secondAttribute="leading" constant="20" symbolic="YES" id="E5h-5T-Vtr"/>
+                                            <constraint firstAttribute="bottom" secondItem="EXr-zh-awg" secondAttribute="bottom" constant="90" id="F56-fM-dzA"/>
+                                            <constraint firstItem="uVd-oV-ken" firstAttribute="top" secondItem="evD-cF-Adw" secondAttribute="bottom" constant="-6" id="H3N-1X-iHV"/>
+                                            <constraint firstItem="v7c-oR-fzX" firstAttribute="leading" secondItem="seA-RV-fcO" secondAttribute="leading" constant="20" symbolic="YES" id="H5j-4h-vee"/>
+                                            <constraint firstItem="6eF-hy-0EP" firstAttribute="top" secondItem="C82-Uf-wIM" secondAttribute="bottom" constant="6" id="IpJ-Du-CVR"/>
+                                            <constraint firstItem="1U1-mE-F5I" firstAttribute="top" secondItem="KYp-6X-srA" secondAttribute="bottom" constant="4" id="JF1-6s-Pcx"/>
+                                            <constraint firstItem="LRj-au-0Kh" firstAttribute="top" secondItem="9Mq-Lh-ToZ" secondAttribute="bottom" constant="2" id="Kv6-Un-qsJ"/>
+                                            <constraint firstItem="K2v-sE-8l1" firstAttribute="top" secondItem="yui-2Y-hv2" secondAttribute="bottom" constant="34" id="LSx-lH-4Pm"/>
+                                            <constraint firstAttribute="trailing" secondItem="yui-2Y-hv2" secondAttribute="trailing" constant="20" symbolic="YES" id="LY5-fH-9d8"/>
+                                            <constraint firstItem="yui-2Y-hv2" firstAttribute="top" secondItem="seA-RV-fcO" secondAttribute="top" constant="90" id="Lf7-yQ-ILs"/>
+                                            <constraint firstItem="Gtm-ng-lws" firstAttribute="width" secondItem="KYp-6X-srA" secondAttribute="width" id="M8f-1u-QAL"/>
+                                            <constraint firstItem="eIO-jI-A7e" firstAttribute="width" secondItem="F6O-W2-Acp" secondAttribute="width" id="NHf-6k-QFl"/>
+                                            <constraint firstItem="vrZ-6R-v8S" firstAttribute="top" secondItem="slP-35-OGd" secondAttribute="bottom" constant="2" id="P9r-1f-eDy"/>
+                                            <constraint firstItem="EXr-zh-awg" firstAttribute="leading" secondItem="seA-RV-fcO" secondAttribute="leading" constant="20" symbolic="YES" id="Q2R-Ii-Vht"/>
+                                            <constraint firstItem="Gtm-ng-lws" firstAttribute="leading" secondItem="seA-RV-fcO" secondAttribute="leading" constant="20" symbolic="YES" id="SkR-cM-5Wc"/>
+                                            <constraint firstItem="Gvd-Xl-Nal" firstAttribute="leading" secondItem="seA-RV-fcO" secondAttribute="leading" constant="20" symbolic="YES" id="TsG-n5-VrJ"/>
+                                            <constraint firstItem="slP-35-OGd" firstAttribute="leading" secondItem="seA-RV-fcO" secondAttribute="leading" constant="20" symbolic="YES" id="VOs-i6-FSf"/>
+                                            <constraint firstItem="9Mq-Lh-ToZ" firstAttribute="top" secondItem="Gtm-ng-lws" secondAttribute="bottom" constant="2" id="Vaj-Oz-P07"/>
+                                            <constraint firstItem="uVd-oV-ken" firstAttribute="width" secondItem="F6O-W2-Acp" secondAttribute="width" id="YbL-cD-uto"/>
+                                            <constraint firstItem="6eF-hy-0EP" firstAttribute="leading" secondItem="seA-RV-fcO" secondAttribute="leading" constant="20" symbolic="YES" id="YcM-Hf-vBf"/>
+                                            <constraint firstItem="C82-Uf-wIM" firstAttribute="leading" secondItem="seA-RV-fcO" secondAttribute="leading" constant="20" symbolic="YES" id="Zho-Mz-EGZ"/>
+                                            <constraint firstItem="Otg-FB-AYb" firstAttribute="leading" secondItem="seA-RV-fcO" secondAttribute="leading" constant="20" symbolic="YES" id="aiz-u9-nPN"/>
+                                            <constraint firstItem="KYp-6X-srA" firstAttribute="leading" secondItem="seA-RV-fcO" secondAttribute="leading" constant="20" symbolic="YES" id="b0a-Tr-Uh7"/>
+                                            <constraint firstItem="Otg-FB-AYb" firstAttribute="width" secondItem="C82-Uf-wIM" secondAttribute="width" id="bWK-8b-Ti9"/>
+                                            <constraint firstItem="vrZ-6R-v8S" firstAttribute="width" secondItem="Gvd-Xl-Nal" secondAttribute="width" id="dTw-0a-rnG"/>
+                                            <constraint firstAttribute="trailing" secondItem="slP-35-OGd" secondAttribute="trailing" constant="14" id="dXt-0n-Mlb"/>
+                                            <constraint firstItem="De7-N6-zcq" firstAttribute="width" secondItem="C82-Uf-wIM" secondAttribute="width" id="dgj-Zj-bhO"/>
+                                            <constraint firstItem="Gtm-ng-lws" firstAttribute="top" secondItem="1U1-mE-F5I" secondAttribute="bottom" constant="10" id="egc-uc-u8A"/>
+                                            <constraint firstItem="C82-Uf-wIM" firstAttribute="top" secondItem="eIO-jI-A7e" secondAttribute="bottom" constant="2" id="enm-nk-LPb"/>
+                                            <constraint firstItem="F6O-W2-Acp" firstAttribute="leading" secondItem="seA-RV-fcO" secondAttribute="leading" constant="20" symbolic="YES" id="fBU-dw-fzw"/>
+                                            <constraint firstItem="De7-N6-zcq" firstAttribute="top" secondItem="Otg-FB-AYb" secondAttribute="bottom" constant="2" id="gYd-0t-Vje"/>
+                                            <constraint firstItem="KYp-6X-srA" firstAttribute="top" secondItem="vrZ-6R-v8S" secondAttribute="bottom" constant="2" id="hGf-Nb-gMn"/>
+                                            <constraint firstItem="1U1-mE-F5I" firstAttribute="leading" secondItem="seA-RV-fcO" secondAttribute="leading" constant="20" symbolic="YES" id="hRE-ee-JjJ"/>
+                                            <constraint firstItem="Otg-FB-AYb" firstAttribute="top" secondItem="Rva-R0-j8r" secondAttribute="bottom" constant="2" id="i0V-Yx-eHq"/>
+                                            <constraint firstItem="evD-cF-Adw" firstAttribute="leading" secondItem="seA-RV-fcO" secondAttribute="leading" constant="20" symbolic="YES" id="iR9-UT-Z66"/>
+                                            <constraint firstItem="C82-Uf-wIM" firstAttribute="width" secondItem="F6O-W2-Acp" secondAttribute="width" id="iTA-dV-0zc"/>
+                                            <constraint firstItem="9Mq-Lh-ToZ" firstAttribute="width" secondItem="KYp-6X-srA" secondAttribute="width" id="l98-yU-tFj"/>
+                                            <constraint firstItem="KYp-6X-srA" firstAttribute="width" secondItem="Gvd-Xl-Nal" secondAttribute="width" id="lvF-d4-BIu"/>
+                                            <constraint firstItem="EXr-zh-awg" firstAttribute="top" secondItem="De7-N6-zcq" secondAttribute="bottom" constant="2" id="nW9-lH-xYg"/>
+                                            <constraint firstItem="De7-N6-zcq" firstAttribute="leading" secondItem="seA-RV-fcO" secondAttribute="leading" constant="20" symbolic="YES" id="onU-bp-D8i"/>
+                                            <constraint firstItem="Rva-R0-j8r" firstAttribute="top" secondItem="6eF-hy-0EP" secondAttribute="bottom" constant="10" id="qqz-No-GtS"/>
+                                            <constraint firstItem="Rva-R0-j8r" firstAttribute="leading" secondItem="seA-RV-fcO" secondAttribute="leading" constant="20" symbolic="YES" id="r3B-7g-Rya"/>
+                                            <constraint firstItem="v7c-oR-fzX" firstAttribute="top" secondItem="F6O-W2-Acp" secondAttribute="bottom" constant="2" id="sGY-Yi-1fI"/>
+                                            <constraint firstItem="F6O-W2-Acp" firstAttribute="top" secondItem="LRj-au-0Kh" secondAttribute="bottom" constant="2" id="snO-fW-kSb"/>
+                                            <constraint firstItem="eIO-jI-A7e" firstAttribute="top" secondItem="uVd-oV-ken" secondAttribute="bottom" constant="-6" id="tTE-kz-wR9"/>
+                                            <constraint firstAttribute="trailing" secondItem="Gvd-Xl-Nal" secondAttribute="trailing" constant="20" symbolic="YES" id="y3d-qY-wdX"/>
+                                            <constraint firstItem="EXr-zh-awg" firstAttribute="width" secondItem="C82-Uf-wIM" secondAttribute="width" id="z0U-Po-aX4"/>
+                                            <constraint firstItem="F6O-W2-Acp" firstAttribute="width" secondItem="KYp-6X-srA" secondAttribute="width" id="ze3-mb-lo0"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" red="0.92156862745098034" green="0.96078431372549022" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="seA-RV-fcO" secondAttribute="trailing" id="28T-OM-53Q"/>
+                                    <constraint firstItem="seA-RV-fcO" firstAttribute="height" secondItem="4Jj-oX-kRP" secondAttribute="height" priority="250" id="HAg-0p-e83"/>
+                                    <constraint firstItem="seA-RV-fcO" firstAttribute="width" secondItem="4Jj-oX-kRP" secondAttribute="width" id="f6V-ef-0dS"/>
+                                    <constraint firstItem="seA-RV-fcO" firstAttribute="leading" secondItem="4Jj-oX-kRP" secondAttribute="leading" id="hPL-4n-4qF"/>
+                                    <constraint firstAttribute="bottom" secondItem="seA-RV-fcO" secondAttribute="bottom" id="jjs-qN-ThQ"/>
+                                    <constraint firstItem="seA-RV-fcO" firstAttribute="top" secondItem="4Jj-oX-kRP" secondAttribute="top" id="k4W-ye-20a"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="lno-hV-Kbn"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="WSq-l6-jAk"/>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="xzG-3l-fo6" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="302-P8-Btp"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="4Jj-oX-kRP" secondAttribute="trailing" id="9NQ-jm-P5k"/>
+                            <constraint firstItem="4Jj-oX-kRP" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" constant="34" id="AD2-eG-Qo5"/>
+                            <constraint firstItem="4Jj-oX-kRP" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="TBH-We-Gab"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="top" secondItem="4Jj-oX-kRP" secondAttribute="top" constant="44" id="flf-Qi-aZT"/>
+                            <constraint firstItem="xzG-3l-fo6" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="40" id="nbI-xI-xiO"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="NrK-3c-ZhW"/>
+                    <size key="freeformSize" width="414" height="2800"/>
+                    <connections>
+                        <outlet property="buttonAndarBicicleta" destination="Gtm-ng-lws" id="abw-mO-dXF"/>
+                        <outlet property="buttonApostarCorrida" destination="Otg-FB-AYb" id="WKA-KA-h2P"/>
+                        <outlet property="buttonBanhoCachorro" destination="Gvd-Xl-Nal" id="yRx-LS-6yu"/>
+                        <outlet property="buttonBrincarCasinha" destination="C82-Uf-wIM" id="gwi-8q-GSh"/>
+                        <outlet property="buttonCacaTesouro" destination="LRj-au-0Kh" id="b5Y-Fa-dOz"/>
+                        <outlet property="buttonCarimboCorpo" destination="vrZ-6R-v8S" id="YC3-ub-Rji"/>
+                        <outlet property="buttonChicleteBruxa" destination="slP-35-OGd" id="7pi-F5-jEQ"/>
+                        <outlet property="buttonCriarInstrumentos" destination="Rva-R0-j8r" id="tq0-WO-IKt"/>
+                        <outlet property="buttonDebaixoAgua" destination="EXr-zh-awg" id="FTn-Qo-jpO"/>
+                        <outlet property="buttonEncenarPeca" destination="uVd-oV-ken" id="Nes-UY-DxX"/>
+                        <outlet property="buttonEscreverHistoria" destination="evD-cF-Adw" id="vg2-oC-GMw"/>
+                        <outlet property="buttonFazerBiscoito" destination="KYp-6X-srA" id="xkH-fb-h2f"/>
+                        <outlet property="buttonNascerSol" destination="9Mq-Lh-ToZ" id="eJD-vH-SsV"/>
+                        <outlet property="buttonPularCorda" destination="De7-N6-zcq" id="ac0-q9-rNm"/>
+                        <outlet property="buttonPularOndas" destination="F6O-W2-Acp" id="iva-A2-m9X"/>
+                        <outlet property="buttonRecortarRevistas" destination="eIO-jI-A7e" id="B3U-sx-UJL"/>
+                        <segue destination="Tm2-wd-kUY" kind="presentation" identifier="changeScreenSegue" modalPresentationStyle="fullScreen" id="roc-rK-RnU"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="944.85981308411215" y="69.330453563714912"/>
+        </scene>
+        <!--ActivitiesDetailsViewController-->
+        <scene sceneID="0pK-R9-6o6">
+            <objects>
+                <viewController id="Tm2-wd-kUY" userLabel="ActivitiesDetailsViewController" customClass="ActivitiesDetailsViewController" customModule="ChallengeCamaragibe" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="u8Z-Ae-TZa">
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Fundo linhas" translatesAutoresizingMaskIntoConstraints="NO" id="1zv-Kx-LM8">
+                                <rect key="frame" x="0.0" y="0.0" width="428" height="239"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Fundo retangulo" translatesAutoresizingMaskIntoConstraints="NO" id="sEM-x3-rIR">
+                                <rect key="frame" x="0.0" y="156" width="428" height="770"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="250" verticalCompressionResistancePriority="250" fixedFrame="YES" image="Fundo elipse" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WW1-aN-cvN">
+                                <rect key="frame" x="86" y="88" width="256" height="256"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" horizontalCompressionResistancePriority="250" verticalCompressionResistancePriority="250" fixedFrame="YES" scrollEnabled="NO" editable="NO" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Pji-Xk-cvF">
+                                <rect key="frame" x="20" y="409" width="388" height="353"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.99607843137254903" green="0.96862745098039216" blue="0.94509803921568625" alpha="0.80000000000000004" colorSpace="custom" customColorSpace="sRGB"/>
+                                <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="19"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="250" fixedFrame="YES" text="Lorem ipsumaaaaaaa            " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Db6-Qs-fjd">
+                                <rect key="frame" x="20" y="343" width="343" height="34"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="28"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Ov-jP-J9j">
+                                <rect key="frame" x="330" y="809" width="78" height="68"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="Botao voltar Laranja 500"/>
+                                <connections>
+                                    <action selector="dismissToHomeViewController:" destination="Tm2-wd-kUY" eventType="touchUpInside" id="frm-vB-g8U"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="img Andar de bicicleta" translatesAutoresizingMaskIntoConstraints="NO" id="Rb1-5D-ddl">
+                                <rect key="frame" x="112" y="113" width="202" height="202"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="bjR-O5-zVN"/>
+                        <color key="backgroundColor" red="1" green="0.80392156862745101" blue="0.69019607843137254" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="V3Y-ut-g4L"/>
+                    <connections>
+                        <outlet property="backButton" destination="2Ov-jP-J9j" id="CZZ-db-3Dt"/>
+                        <outlet property="imgActivity" destination="Rb1-5D-ddl" id="O9p-qc-2Qu"/>
+                        <outlet property="nameActivity" destination="Db6-Qs-fjd" id="4Up-H2-Zr6"/>
+                        <outlet property="textActivity" destination="Pji-Xk-cvF" id="Uac-ld-FLv"/>
+                        <outlet property="viewActivity" destination="u8Z-Ae-TZa" id="P6Y-9M-4rj"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QFW-kO-tEb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1969.6261682242989" y="68.682505399568043"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="u3q-W6-ksC">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="I9D-9a-mER" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="OrQ-zH-ZbP">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.92156862750000001" green="0.96078431369999995" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <navigationBarAppearance key="compactAppearance" backgroundEffect="regular">
+                            <color key="backgroundColor" red="0.92156862750000001" green="0.96078431369999995" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        </navigationBarAppearance>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="GW1-ts-eBM"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="B43-tx-Ii6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="44.859813084112147" y="69.330453563714912"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Andar de bicicleta" width="348" height="130"/>
+        <image name="Apostar corrida" width="348" height="130"/>
+        <image name="Banho no cachorro" width="348" height="130"/>
+        <image name="Botao voltar Laranja 500" width="54" height="54"/>
+        <image name="Brincar de casinha" width="348" height="130"/>
+        <image name="Caca ao tesouro" width="348" height="130"/>
+        <image name="Carimbo no corpo" width="348" height="130"/>
+        <image name="Chiclete de bruxa" width="348" height="130"/>
+        <image name="Criar instrumentos" width="348" height="130"/>
+        <image name="Debaixo dagua" width="348" height="130"/>
+        <image name="Encenar uma peça" width="356" height="138"/>
+        <image name="Escrever uma história" width="356" height="138"/>
+        <image name="Fazer biscoitos" width="356" height="138"/>
+        <image name="Fundo elipse" width="276" height="276"/>
+        <image name="Fundo linhas" width="411" height="237.66667175292969"/>
+        <image name="Fundo retangulo" width="428" height="726"/>
+        <image name="NameBrincadopedia" width="199" height="40"/>
+        <image name="Nascer do sol" width="348" height="130"/>
+        <image name="Pular corda" width="348" height="130"/>
+        <image name="Pular ondas" width="348" height="130"/>
+        <image name="Recorte de revistas" width="348" height="130"/>
+        <image name="img Andar de bicicleta" width="205" height="205"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
