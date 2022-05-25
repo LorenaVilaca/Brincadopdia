@@ -16,12 +16,12 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4Jj-oX-kRP">
-                                <rect key="frame" x="0.0" y="44" width="414" height="2756"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="2800"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="seA-RV-fcO" userLabel="Content View">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="2756"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="2800"/>
                                         <subviews>
-                                            <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Buscar atividade" textAlignment="natural" adjustsFontForContentSizeCategory="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="yui-2Y-hv2">
+                                            <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Buscar atividade" textAlignment="natural" adjustsFontForContentSizeCategory="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="yui-2Y-hv2">
                                                 <rect key="frame" x="20" y="90" width="374" height="36"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -30,13 +30,13 @@
                                                 <textInputTraits key="textInputTraits"/>
                                             </textField>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Para se sujar" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K2v-sE-8l1">
-                                                <rect key="frame" x="20" y="160" width="131" height="27"/>
+                                                <rect key="frame" x="20" y="204" width="131" height="27"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
                                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gvd-Xl-Nal">
-                                                <rect key="frame" x="20" y="207" width="374" height="144"/>
+                                                <rect key="frame" x="20" y="251" width="374" height="144"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" image="Banho no cachorro" title="">
                                                     <backgroundConfiguration key="background"/>
@@ -46,7 +46,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="slP-35-OGd">
-                                                <rect key="frame" x="20" y="353" width="380" height="144"/>
+                                                <rect key="frame" x="20" y="397" width="380" height="144"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" image="Chiclete de bruxa" title=""/>
                                                 <connections>
@@ -54,7 +54,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vrZ-6R-v8S">
-                                                <rect key="frame" x="20" y="499" width="374" height="144"/>
+                                                <rect key="frame" x="20" y="543" width="374" height="144"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" image="Carimbo no corpo" title=""/>
                                                 <connections>
@@ -62,7 +62,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KYp-6X-srA">
-                                                <rect key="frame" x="20" y="645" width="374" height="152"/>
+                                                <rect key="frame" x="20" y="689" width="374" height="152"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" image="Fazer biscoitos" title=""/>
                                                 <connections>
@@ -70,13 +70,13 @@
                                                 </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Para não esquecer jamais" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1U1-mE-F5I">
-                                                <rect key="frame" x="20" y="801" width="261" height="27"/>
+                                                <rect key="frame" x="20" y="845" width="261" height="27"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
                                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gtm-ng-lws">
-                                                <rect key="frame" x="20" y="838" width="374" height="144"/>
+                                                <rect key="frame" x="20" y="882" width="374" height="144"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" image="Andar de bicicleta" title=""/>
                                                 <connections>
@@ -84,7 +84,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Mq-Lh-ToZ">
-                                                <rect key="frame" x="20" y="984" width="374" height="144"/>
+                                                <rect key="frame" x="20" y="1028" width="374" height="144"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" image="Nascer do sol" title=""/>
                                                 <connections>
@@ -92,7 +92,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LRj-au-0Kh">
-                                                <rect key="frame" x="20" y="1130" width="374" height="144"/>
+                                                <rect key="frame" x="20" y="1174" width="374" height="144"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" image="Caca ao tesouro" title=""/>
                                                 <connections>
@@ -100,7 +100,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F6O-W2-Acp">
-                                                <rect key="frame" x="20" y="1276" width="374" height="144"/>
+                                                <rect key="frame" x="20" y="1320" width="374" height="144"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" image="Pular ondas" title=""/>
                                                 <connections>
@@ -108,13 +108,13 @@
                                                 </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Para dias de chuva" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v7c-oR-fzX">
-                                                <rect key="frame" x="20" y="1422" width="191" height="27"/>
+                                                <rect key="frame" x="20" y="1466" width="191" height="27"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
                                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="evD-cF-Adw">
-                                                <rect key="frame" x="20" y="1459" width="374" height="152"/>
+                                                <rect key="frame" x="20" y="1503" width="374" height="152"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" image="Escrever uma história" title=""/>
                                                 <connections>
@@ -122,7 +122,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uVd-oV-ken">
-                                                <rect key="frame" x="20" y="1605" width="374" height="152"/>
+                                                <rect key="frame" x="20" y="1649" width="374" height="152"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" image="Encenar uma peça" title=""/>
                                                 <connections>
@@ -130,7 +130,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eIO-jI-A7e">
-                                                <rect key="frame" x="20" y="1751" width="374" height="144"/>
+                                                <rect key="frame" x="20" y="1795" width="374" height="144"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" image="Recorte de revistas" title=""/>
                                                 <connections>
@@ -138,7 +138,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C82-Uf-wIM">
-                                                <rect key="frame" x="20" y="1897" width="374" height="144"/>
+                                                <rect key="frame" x="20" y="1941" width="374" height="144"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" image="Brincar de casinha" title=""/>
                                                 <connections>
@@ -146,13 +146,13 @@
                                                 </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Para incentivar conquistas" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6eF-hy-0EP">
-                                                <rect key="frame" x="20" y="2047" width="271" height="27"/>
+                                                <rect key="frame" x="20" y="2091" width="271" height="27"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
                                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rva-R0-j8r">
-                                                <rect key="frame" x="20" y="2084" width="374" height="144"/>
+                                                <rect key="frame" x="20" y="2128" width="374" height="144"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" image="Criar instrumentos" title="">
                                                     <backgroundConfiguration key="background"/>
@@ -162,7 +162,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Otg-FB-AYb">
-                                                <rect key="frame" x="20" y="2230" width="374" height="144"/>
+                                                <rect key="frame" x="20" y="2274" width="374" height="144"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" image="Apostar corrida" title=""/>
                                                 <connections>
@@ -170,7 +170,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="De7-N6-zcq">
-                                                <rect key="frame" x="20" y="2376" width="374" height="144"/>
+                                                <rect key="frame" x="20" y="2420" width="374" height="144"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" image="Pular corda" title=""/>
                                                 <connections>
@@ -178,7 +178,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EXr-zh-awg">
-                                                <rect key="frame" x="20" y="2522" width="374" height="144"/>
+                                                <rect key="frame" x="20" y="2566" width="374" height="144"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" image="Debaixo dagua" title=""/>
                                                 <connections>
